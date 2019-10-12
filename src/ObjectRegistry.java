@@ -17,7 +17,7 @@ public class ObjectRegistry extends UnicastRemoteObject implements ObjectRegistr
   }
 
   @Override
-  public void addObject(String objectID, String serverAddres) throws RemoteException {
+  public void addRManager(String objectID, String serverAddres) throws RemoteException {
     servers.put(objectID, serverAddres);
   }
 
